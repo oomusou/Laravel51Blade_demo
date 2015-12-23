@@ -15,7 +15,7 @@
             @elseif($locale === 'tw')
                 <h2>{{ $user->created_at->format('Y/m/d') }}</h2>
             @else
-                <h2>{{ $user->created_at->fformat('M d, Y') }}</h2>
+                <h2>{{ $user->created_at->format('M d, Y') }}</h2>
             @endif
         </div>
         <hr>
